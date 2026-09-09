@@ -1,0 +1,19 @@
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:180,90,80;
+}
+/*descendant selector */
+ol li{
+    background-color: bisque;
+    color: blue;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*child selector*/
+nav > a{
+    color: aqua;
+}
+a:hover{
+    color: crimson;
+}
